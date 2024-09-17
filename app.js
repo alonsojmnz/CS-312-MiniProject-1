@@ -7,7 +7,6 @@ const PORT = 5000
 
 // set up EJS in express app.js
 app.set('view engine', 'ejs')
-// middleware to parse form data
 app.use(express.urlencoded({ extended: true }))
 
 // routes for basic functionality of the app BELOW
